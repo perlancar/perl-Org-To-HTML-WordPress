@@ -1,8 +1,5 @@
 package Org::To::HTML::WordPress;
 
-# DATE
-# VERSION
-
 use 5.010001;
 use strict;
 use warnings;
@@ -11,6 +8,12 @@ use Moo;
 extends 'Org::To::HTML';
 
 use Exporter qw(import);
+
+# AUTHORITY
+# DATE
+# DIST
+# VERSION
+
 our @EXPORT_OK = qw(org_to_html_wordpress);
 
 our %SPEC;
